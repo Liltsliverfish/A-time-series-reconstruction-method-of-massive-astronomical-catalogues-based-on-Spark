@@ -15,11 +15,11 @@ CMP directory is the comparative experiments for diferent Join algorithm between
 
 This program running on the Spark cluster. The following environment configuration serves as a reference
 
--JDK version: 1.8.0_261
--Scala version: 2.12.12
--Redis version: 5.0.14.1
--Hadoop version: 3.1.2
--Spark version: 3.0.0
+- JDK version: 1.8.0_261
+- Scala version: 2.12.12
+- Redis version: 5.0.14.1
+- Hadoop version: 3.1.2
+- Spark version: 3.0.0
 
 #### Operating guide
 
