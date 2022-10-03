@@ -21,7 +21,7 @@ This program running on the Spark cluster. The following environment configurati
 - Hadoop version: 3.1.2
 - Spark version: 3.0.0
 
-#### Operating guide
+### Operating guide
 
 ##### 1. Setting up a Spark Cluster. Please refer to [https://spark.apache.org/](https://spark.apache.org/) for details.
 ##### 2. Package the source code as a JAR package (The JAR package is required for yarn-cluster submission).
