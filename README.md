@@ -23,11 +23,13 @@ This program running on the Spark cluster. The following environment configurati
 
 #### Operating guide
 
-##### 1. Setting up a Spark Cluster. For details, please refer to [https://spark.apache.org/](https://spark.apache.org/).
-##### 2. Package the source code as a JAR package.
-##### 3. Submit the JAR package to the Spark cluster. The following submission code is for reference：
-、、、
-aaa
-、、、
+##### 1. Setting up a Spark Cluster. Please refer to [https://spark.apache.org/](https://spark.apache.org/) for details.
+##### 2. Package the source code as a JAR package (The JAR package is required for yarn-cluster submission).
+##### 3. Submit the JAR package to the Spark cluster. You can select the yarn-client or yarn-cluster mode. The following is the code of yarn-client mode: 
+```
+bin/spark-shell --master yarn --deploy-mode client --executor-memory 8g --num-executors 32 --executor-cores 2
+```
+
+
 
 
