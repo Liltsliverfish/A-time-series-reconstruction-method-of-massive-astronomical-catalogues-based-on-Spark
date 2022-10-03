@@ -9,7 +9,7 @@ The program running on the Linux platform or Windows platform, which is implemen
 
 The code contains two parts, ETL(extract-transform-load) preprocessing, mathcing calculation. You need to have original catalogues, and small data samples are provided in the **Data** directory. Then run program **ETL preprocessing** to generate format files. Next, run program **matching** to mark celestial objects. 
 
-CMP directory is the comparative experiments for diferent Join algorithm between two tables.
+**CMP** directory is the comparative experiments for diferent Join algorithm between two tables.
 
 ### Prerequisites
 
